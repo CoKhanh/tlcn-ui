@@ -1,0 +1,89 @@
+.tab1 {
+  float: left;
+  padding: 0 12px;
+  width: fit-content;
+}
+.btnFixInfo:hover {
+  background-color: #ddd;
+}
+.btnFixInfo:active {
+  background-color: #ccc;
+}
+#loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  margin: -75px 0 0 -75px;
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.btnFixInfo {
+  display: block;
+  background-color: inherit;
+  color: black;
+  padding: 22px 16px;
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 700;
+}
+/* .tabChangePass{
+    border-top: unset !important;
+    border-bottom: unset !important;
+  } */
+#row1 , #row2, #row3, #row4, #row5 {
+  border-top: 1px solid rgba(0,0,0,.3);
+  margin: unset;
+}
+.tabcontent1 {
+  float: left;
+  width: 75%;
+  border: 1px solid #ccc;
+  background-color: white;
+}
+
+.w-160px{
+  width: 160px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.tblNoneEditting {
+  background: transparent;
+  border: unset;
+  margin-bottom: 0px;
+}
+.ulInfo{
+  border: unset;
+  margin: unset;
+}
+.liInfo{
+  border: unset;
+  border-radius: unset !important;
+}

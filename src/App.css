@@ -1,0 +1,837 @@
+/*Appp*/
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media only screen and (min-width: 768px){
+  .mainWall{
+    margin-left: 27.5%;
+  }
+  
+}
+@media only screen and (max-width: 992px){
+  .tabcontent1 {
+    width: 100% !important;
+  }    
+  
+}
+@media  only screen and (min-width: 1200px)
+{
+  .ml-auto1{
+    margin-left: 15%;
+  }
+}
+@media only screen and (width: 768px){
+  .mainWall{
+    margin-left: auto;
+  }
+  .mainwallProfile
+  {
+    width: 100%;
+  }
+}
+@media only screen and (width: 600px){
+  .mainWall{
+    margin-left: auto;
+  }
+  .mainwallProfile
+  {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 767px){
+  .mainWall{
+    /* margin-left: auto; */
+    display: none;
+  }
+  .HeaderNFbar{
+    display: none;
+  }
+  .mainwallProfile
+  {
+    display: none;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------*/
+
+
+
+/*----
+---------------------*/
+.btnLogin:hover {
+  text-decoration: underline;
+  /* background-color: rgba(22,111,229,0.4); */
+  background-color: #166fe5;
+}
+
+
+/*DashBar*/
+
+.DashBarNAV {
+  padding: unset;
+  position: absolute;
+  float: right;
+  width: 12%;
+  background-color: whitesmoke;
+}
+
+.tblContentDang {
+  width: 1130px;
+}
+
+.btnDangSTT {
+  padding-left: unset;
+  width: 100%;
+  background-color: #4267b2;
+  height: 28px;
+  color: #ffffff;
+}
+
+.Public {
+  margin-right: 5px;
+}
+
+.TenNgDangStt {
+  font-size: inherit;
+}
+
+.imgPstt {
+  width: 100%;
+}
+
+.createSTT {
+  width: 100%;
+}
+
+.ml-auto1{
+  padding-left: 5%;
+}
+
+.mainWall {
+  width: 507px;
+}
+.mainwallProfile{
+  width: 47%;
+  margin-left: 23%;
+}
+
+.CheckBoxNF {
+  margin: unset;
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.ImageStatus {
+  height: fit-content;
+  margin-left: unset;
+  margin-right: 10px;
+  padding: unset;
+  border-color: black;
+}
+
+.IMGStatus {
+  border-radius: 50%;
+  border-right-style: solid;
+  border: whitesmoke;
+}
+.padding5{
+  padding: 5px;
+}
+.TxtStatus {
+  min-width: 85%;
+  min-height: 66px;
+  max-height: max-content;  
+  resize: unset;
+  max-width: 100%;
+  padding-left: 5px;
+  border-style: unset;
+  border-color: black;
+}
+
+
+  .pnStatus {
+    display: flex;
+    padding: 5px;
+    border-color: whitesmoke;
+  }
+
+.ImageNF {
+  border-radius: 50%;
+}
+.sttBtnCap {
+  padding-left: unset;
+  min-width: 160px;
+  font-weight: 700;
+  padding-right: unset;
+}
+.sttBtnCap:hover , .sttBtnCap:active , .sttBtnCap:focus
+{
+  color: black;
+}
+.sttBtnCap,
+.trangThaiContent,
+.sttBtnCapImg {
+  background-color: transparent;
+  color: #4b4f56;
+  padding: 10px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+.alignRight{
+  width: fit-content;
+  margin: unset;
+  float: right;
+}
+.StatusofCaptionContent {
+  display: none;
+  margin-left: 19px;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.boderrightSolid{
+  border-right: solid 1px rgba(0, 0, 0, .1);
+  
+}
+.boderrightSolid:hover{
+background: rgba(0, 0, 0, .1);
+    color: inherit;}
+.friendHeader:hover , .friendHeader.active
+{
+  background-color: transparent;
+}
+
+.friendHeader {
+  position: relative;
+  display: inline-block;
+  min-width: 25px;
+  padding: 10px 8px 15px 8px;
+  background-color: transparent;
+  border: 0px;
+  z-index: 1;
+}
+
+.StatusofCaptionContent a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+p{
+  font-size: 24px; 
+}
+.h5-btnLike, .h5-btnCmt, .h5-btnShare ,.lblTgianDang
+{
+  color: #606770 ;
+}
+.lblTgianDang{
+  padding: 0 5px 0 0;
+}
+.lblTgianDang:hover{
+  text-decoration: underline;
+}
+.h5-btnLiked{
+  color: blue;
+}
+.btnLike,.btnCmt,.btnShare 
+{
+  width: 33.33%;
+  padding-top: 10px;
+  border-style: solid;
+  border-color: white;
+  padding-bottom: 10px;
+}
+.bodyPanel{
+  padding-top: 5px;
+}
+hr{
+  margin-top:  5px;
+  margin-bottom: 5px;
+}
+h5
+{
+  font-size: 14px;
+  margin-top: unset;
+  margin-bottom: unset;
+}
+.InfoComment{
+  background-color: #f2f3f5;
+    border-radius: 18px;
+    box-sizing: border-box;
+    color: #1c1e21;
+    display: inline-block;
+    line-height: 16px;
+    margin: 0;
+    max-width: 100%;
+    word-wrap: break-word;
+    position: relative;
+    white-space: normal;
+    padding:8px 10px
+}
+.NameAndStatus{
+  width: 90%;
+  padding-left: 1px;
+  margin-top: 4px;
+}
+.txtCmt{
+  border-radius: 16px;    
+  font-size: 14px;
+  margin-top: inherit;
+  height: fit-content;
+  resize: unset;
+}
+.InfoCaption
+{
+  padding-left: unset;
+}
+.ImgHeadingSTT{
+  width: unset  ;
+  margin-right: 3px;
+  padding: unset;
+  padding-top: 4px;
+}
+.imgOfInfo
+{
+  width: fit-content;
+  height: fit-content;
+  margin-right: 3px;
+  padding: unset;
+  padding-top: 4px;
+  
+}
+.btnLike:hover,
+.btnCmt:hover,
+.btnShare:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  text-decoration: underline;
+}
+.LikeActive{
+  text-decoration: blue;
+}
+.StatusofCaptionContent a:hover {
+  background-color: #f1f1f1;
+}
+
+.StatusofCaption:hover .StatusofCaptionContent {
+  display: block;
+}
+
+
+
+.sttBtnCapImg {
+  display: inline-flex;
+  width: min-content;
+  padding: unset;
+  text-align: left;
+}
+
+.btnPublic,
+.btnFriend,
+.btnPrivate {
+  width: 100%;
+  border: unset;
+  background-color: transparent;
+  text-align: left;
+  padding-left: 8%;
+  padding-bottom: 8%;
+  padding-top: 8%;
+}
+
+.btnPublic:hover,
+.btnFriend:hover,
+.btnPrivate:hover {
+  background-color: rgba(0, 0, 0, 0.555);
+}
+
+.StatusofCaption:hover .dropbtn {
+  background-color: rgba(255, 255, 255, 0.555);
+}
+
+.LblIconNF:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.checkbox input[type="checkbox"],
+.checkbox-inline input[type="checkbox"],
+.radio input[type="radio"],
+.radio-inline input[type="radio"] {
+  margin-top: 1.15%;
+  width: 15px;
+  height: 15px;
+}
+
+/*===========================ý a ============*/
+
+/*HeaderNF*/
+
+.navbar-inverse {
+  background-color: #4267b2;
+  margin-bottom: unset;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #ffffff;
+}
+.btnMess{
+  padding: unset;
+  padding-top: 12px;
+}
+.mainmenubtn {
+  background-color: unset;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.ImageProfile {
+  border-radius: 100%;
+}
+
+.StatusofCaption {
+  position: relative;
+  display: inline-block;
+  color: black;
+}
+
+*/ .PublicOrNot {
+  align-items: flex-end;
+}
+
+
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:focus,
+.navbar-inverse .navbar-nav > .active > a:hover {
+  background-color: unset;
+}
+.btnAddimgVid
+{
+  padding: 0 15px 0 35px;
+  height: 32px;
+  line-height: 32px;
+  display: inline-block;
+  width: auto;
+}
+
+.tdTagsName{
+  width: 5%;
+  padding: unset;
+}
+.tableTagsName{
+  width: 90%;
+  margin-bottom: 10px;
+  margin-left: 4%;
+}
+.padding5px{
+  padding: 0 0px 0 11px;
+}
+.divHaveVoi{
+  padding: 8px 6px 6px 8px;
+  background-color: #e2e8f6;
+  font-size: 14px;
+}
+.CungVoiAi{
+  font-size: 14px;
+ border:unset;
+ width: 100%;
+ padding: 8px 6px 6px 8px;
+}
+.imgAddIMG
+{
+  height: 35px;
+  width: 35px;
+  left: 6px;
+  top: -3px;
+  position: absolute;
+}
+.imgTags{
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  left: 10px;
+  top: 4px;
+}
+.btnInfoStt{
+  padding: unset;
+  width: auto;
+  position: relative;
+  margin-left : 8px;
+}
+
+
+
+.btnInfo {
+  margin-top: 9px;
+  margin-bottom: 2px;
+  padding: unset;
+  width:auto;
+}
+
+.facebook {
+  margin: 1px;
+}
+.txtTimKiem {
+  float: left;
+  width: 80%;
+  margin-right: 5px;
+}
+.btnSearch{
+  float: left;
+  width: 40px;
+}
+.fbICon,
+.TrangChuHome {
+  width: unset;
+  padding: unset;
+}
+.TrangChuHome{
+  float: left;
+  margin-left: 50px;
+}
+.textHeader {
+  margin: 8px 0;
+  width: 33.8%;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.avatarProFilePage{
+    left: 15px;
+    top: 30px;
+    position: relative;
+    z-index: 100;
+}
+.Facebook-timelineSection{
+  height: fit-content;
+}
+.CoverProfile{
+  max-height: 425px;
+  max-width: 850px;
+  display: block;
+  background-position: center;
+}
+.imgCover{
+  width: 100%;
+  height: 100%;
+}
+.avatarProfile
+{
+  border: 4px solid white;
+  min-width: 50px;
+  min-height: 50px;
+  height: 168px;
+  width: 168px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.btnAddCover
+{
+  position: absolute;
+  margin-left: 20px;
+ min-width: 30px ;
+ min-height: 30px;
+  margin-top: 15px;
+  border: rgba(28, 30, 21, 0.4);
+  background-color: rgba(28, 30, 21, 0.4);
+  /* #1c1e21   */
+  background-image: url(./HinhAnh/camera.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  /* #e6e6e6; */
+}
+.btnAddCover:hover{
+  background: rgba(28, 30, 21, 0.6);
+  background-image: url(./HinhAnh/camera.png);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 30px;
+  text-decoration: underline;
+  color: white;
+}
+.NameAccount{
+  position: absolute;
+  z-index: 10;
+  line-height: 26px;
+  margin-left: 185px;
+  margin-top: -2%;
+  color: #fff;
+  font-weight: bold;
+  text-decoration: wavy;
+}
+.btnSettingINFO:hover{
+  background: rgba(28, 30, 21, 0.6);
+  color: white;
+}
+.btnSettingINFO{
+  color: white;
+  float: right;
+  max-width: max-content;
+  position: absolute;
+  border: none;
+  background-color: rgba(0, 0, 0, .4);
+  line-height: 26px;
+  padding: 0px 5px;
+  border-radius: 4px;
+  /* bottom: 50px; */
+  margin-left: 450px;
+  margin-top: -2%;
+  z-index: 10;
+}
+
+.NAVinTimeline{
+
+ width: 100%;
+ padding-left: 201px;
+ margin: unset;
+ background: white;
+ height: fit-content;
+ 
+ border-top: unset;
+ border-bottom: unset;
+}
+.iconInfoSetting
+{
+  background-position: 0 -938px;
+  bottom: 1px;
+    position: relative;
+    vertical-align: middle;
+}
+.tagAinTimeLine{
+  border-left: solid 1px;
+  padding: 15px 10px!important;
+  border-color: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  color: #385898;
+}
+.tagVideoTimeline
+{
+  border-right: 1px solid;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+.btnSaveCover{
+  float: right;
+  background-color: #4267b2;
+  border-color: #4267b2;
+  color: #fff;
+  line-height: 26px;
+  text-align: left;
+}
+.btnHuyCover
+{
+  background-color: #f5f6f7;
+  border: 1px solid #ccd0d5;
+  color: #4b4f56;
+  margin-right: 10px;
+}
+
+.lblCongKhaiCover{
+  background: white;
+  width: fit-content;
+  background-image: url(./HinhAnh/Public.png);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding-left: 25px;
+  margin-right: 10px;
+  padding-top: 6px;
+  color: #4b4f56;
+}
+.divBTNSaveCover{
+  padding-top: 5px;
+}
+.imageIntro{
+  border: solid 5px #3578E5;
+  border-radius: 100%;
+}
+.divImageIntroHeader{
+  padding-right: 5px;
+  width: auto;
+}
+.row1Intro{
+  margin-left: auto;
+  border: 1px solid #dddfe2;
+  background-color: white;
+  padding-top: 12px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.divIntro{
+  width: 30%;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.colorWhite{
+  background-color: white;
+}
+.trTableWhite{
+  width: 165px;
+}
+.h3Table{
+  padding:10px;
+}
+/* .SettingListItemLabel{
+  color: #333;
+  float: left;
+  font-size: 12px;
+  width: 165px;
+  padding-left: 5px;
+}
+.fbSettingsList{
+  padding: 10px 5px;
+  background: transparent;
+  display: block;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-weight: 600;
+  margin: 0;
+  padding: 0;
+} */
+h3{
+  font-weight: 600;
+  margin: unset;
+  padding: 0;
+  width: auto;
+}
+.tableEditting{
+  background: transparent;
+}
+
+.trTableEditting:hover{
+  border: unset;
+  background-color: transparent;
+}
+.thTableEditting
+{
+  padding:8px 0px 0px;
+  vertical-Align:unset; 
+  text-Align: center;
+  border: unset;
+  background-color: transparent;
+}
+.tdTableEditting{
+  padding: unset;
+  border: unset;
+}
+
+  .progress1{
+    height: 10px ;
+     width: 80%;
+     margin-left: 9%;
+     margin-bottom: 10px;
+     margin-top: 10px;
+  }
+  
+  .btnChangeAva, .btnChangeAva:hover, .btnChangeAva:focus
+  {
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    height: 80px;
+    text-align: center;
+    position: absolute;
+    margin-top: -11%;
+    left: 4px;
+    color: white;
+    width: 160px;
+    background-color: rgba(0, 0, 0, .4);
+    border: unset;
+    font-weight: 700;
+  }
+  .nameFriendAdd:hover{
+    text-decoration: underline;
+  }
+  .nameFriendAdd , .nameFriendAdd:hover
+  {
+    margin-left: 10px;
+    float: left;
+    font-size: 12px; 
+    color:#385898 !important;
+    font-weight: 600;
+  }
+  .btnfriendAdd, .btnfriendAdd:hover{
+    background-color: #4267b2;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .btnHuyAdd{
+    background-color: #f5f6f7;
+    border: 1px solid;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .ulDropdownFriend{
+    max-height: 471px;
+    overflow-y: scroll;
+    width: 430px;
+    right: -100px;
+  }
+  .AllFriendRequest , .AllFriendRequest:hover
+  {
+    color: #365899 !important;
+    font-weight: 700 !important;
+  }
+  .AllFriendRequest:hover{
+    background-color: transparent !important;
+  }
+  .liAllRequest:hover{
+    text-decoration: underline !important;
+
+  }
+  .liAllRequest
+  {
+    line-height: 33px !important;
+    text-align: center !important; 
+    width: 100%;
+
+  }
+  
